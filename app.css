@@ -22,6 +22,10 @@ background-image: url(http://www.thisiscolossal.com/wp-content/uploads/2015/02/C
   text-decoration: underline;
 }
 
+.nav-bar__item-logo {
+  text-decoration: none;
+}
+
 .nav-bar__item-logo_pic {
   height: 2rem;
   width: 2rem;
