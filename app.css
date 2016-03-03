@@ -12,7 +12,9 @@ margin: 0;
 
 .header_container {
 background-image: url(http://www.thisiscolossal.com/wp-content/uploads/2015/02/Carreau5793.jpg);
+background-size: 100% 100%;
 }
+
 
 .nav-bar__item-about {
   text-decoration: none;
@@ -35,4 +37,10 @@ background-image: url(http://www.thisiscolossal.com/wp-content/uploads/2015/02/C
 
 .nav-bar__item-logo_pic:hover {
   opacity: 1;
+}
+
+.nav-bar__item-name {
+  position: absolute;
+  text-align: center;
+  margin: auto;
 }
