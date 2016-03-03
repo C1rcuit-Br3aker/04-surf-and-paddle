@@ -9,3 +9,26 @@ box-sizing: border-box;
 body {
 margin: 0;
 }
+
+.header_container {
+background-image: url(http://www.thisiscolossal.com/wp-content/uploads/2015/02/Carreau5793.jpg);
+}
+
+.nav-bar__item-about {
+  text-decoration: none;
+}
+
+.navibar__item-about:hover {
+  text-decoration: underline;
+}
+
+.nav-bar__item-logo_pic {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  opacity: .4;
+}
+
+.nav-bar__item-logo_pic:hover {
+  opacity: 1;
+}
