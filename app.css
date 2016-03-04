@@ -13,19 +13,37 @@ margin: 0;
 .header_container {
 background-image: url(http://www.thisiscolossal.com/wp-content/uploads/2015/02/Carreau5793.jpg);
 background-size: 100% 100%;
+height: 20rem;
+overflow: auto;
+position: relative;
 }
 
+.nav-bar__container {
+  margin: auto;
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-bar__item-search {
+  flex: 0;
+}
 
 .nav-bar__item-about {
   text-decoration: none;
+  color: #0093fe;
+  flex: 0;
 }
 
-.navibar__item-about:hover {
+.nav-bar__item-about:hover {
   text-decoration: underline;
 }
 
 .nav-bar__item-logo {
   text-decoration: none;
+  color: #0093fe;
+  flex-grow: 5;
 }
 
 .nav-bar__item-logo_pic {
@@ -39,8 +57,16 @@ background-size: 100% 100%;
   opacity: 1;
 }
 
-.nav-bar__item-name {
+.nav-bar__item-title {
   position: absolute;
-  text-align: center;
-  margin: auto;
+  top: 16%;
+  left: 28%;
+font-size: 4rem;
+font-family: arial;
+color: #0093fe;
+}
+
+.nav-bar__item-subtitle {
+  display: flex;
+  flex: 5;
 }
