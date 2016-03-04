@@ -40,10 +40,11 @@ position: relative;
   text-decoration: underline;
 }
 
-.nav-bar__item-logo {
+.nav-bar__item-name {
   text-decoration: none;
   color: #0093fe;
-  flex-grow: 5;
+  flex-grow: 1;
+  margin-top: .5rem;
 }
 
 .nav-bar__item-logo_pic {
@@ -61,12 +62,15 @@ position: relative;
   position: absolute;
   top: 16%;
   left: 28%;
-font-size: 4rem;
-font-family: arial;
-color: #0093fe;
+  font-size: 4rem;
+  font-family: arial;
+  color: #0093fe;
 }
 
 .nav-bar__item-subtitle {
   display: flex;
-  flex: 5;
+  position: absolute;
+  top: 45%;
+  left: 41%;
+  font-family: fantasy;
 }
