@@ -224,10 +224,10 @@ flex-wrap: wrap;
 }
 
 .footer-images {
+  flex-grow: 1;
   position: relative;
   display: flex;
-  width: 25%;
-  max-width: 25%;
+  width: 22em;
 }
 
 .footer-pics-words {
