@@ -18,7 +18,7 @@ position: relative;
 }
 
 .main__heading {
-  padding: 6rem;
+  padding: 10rem;
   text-align: center;
 }
 
@@ -68,7 +68,7 @@ position: relative;
 
 .nav-bar__item-title {
   position: absolute;
-  top: 16%;
+  top: 26%;
   left: 28%;
   font-size: 4rem;
   font-family: arial;
@@ -219,9 +219,26 @@ flex-wrap: wrap;
   flex: 1;
   max-height: 15rem;
   text-decoration: none;
+  position: relative;
+  max-width: 100%;
 }
 
-.footer_pics:hover {
+.footer-images {
+  position: relative;
+  display: flex;
+  width: 25%;
+  max-width: 25%;
+}
+
+.footer-pics-words {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 2rem;
+  color: rebeccapurple;
+}
+
+.footer-images:hover {
   opacity: .4;
 }
 
