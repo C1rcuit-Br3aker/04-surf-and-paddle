@@ -30,10 +30,14 @@ position: relative;
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 1rem;
+  font-size: 1.5rem;
 }
 
 .nav-bar__item-search {
-  opacity: .5;
+  width: 6rem;
+  border: none;
+  height: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .nav-bar__item-about {
@@ -42,6 +46,7 @@ position: relative;
   flex: 0;
   opacity: .8;
   height: 1rem;
+  padding-right: 1rem;
 }
 
 .nav-bar__item-about:hover {
@@ -54,7 +59,8 @@ position: relative;
   color: #1e2329;
   opacity: .8;
   flex-grow: 1;
-  margin-top: .5rem;
+  margin-top: 0;
+  padding-left: 1rem;
 }
 
 .nav-bar__item-logo_pic {
