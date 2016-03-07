@@ -38,6 +38,8 @@ position: relative;
   border: none;
   height: 1.6rem;
   font-size: 1.2rem;
+  background: none;
+  color: #1e2329;
 }
 
 .nav-bar__item-about {
@@ -45,7 +47,6 @@ position: relative;
   color: #1e2329;
   flex: 0;
   opacity: .8;
-  height: 1rem;
   padding-right: 1rem;
 }
 
@@ -65,10 +66,8 @@ position: relative;
 
 .nav-bar__item-logo_pic {
   height: 2rem;
-  width: 2rem;
   border-radius: 50%;
   opacity: .4;
-  filter: grayscale(50%);
 }
 
 .nav-bar__item-logo_pic:hover {
