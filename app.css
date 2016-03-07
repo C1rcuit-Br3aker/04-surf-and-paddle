@@ -42,6 +42,10 @@ position: relative;
   color: #1e2329;
 }
 
+::-webkit-input-placeholder {
+   color: #474747;
+}
+
 .nav-bar__item-about {
   text-decoration: none;
   color: #1e2329;
