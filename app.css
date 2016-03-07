@@ -83,13 +83,13 @@ position: relative;
   top: 12%;
   left: 10%;
   font-size: 7rem;
-  font-family: arial;
+  font-family: sans-serif;
   color: #ffffff;
   text-shadow: 2px 2px black;
 }
 
 .nav-bar__item-subtitle {
-  font-family: fantasy;
+  font-family: sans-serif;
   flex: 1;
 }
 
@@ -245,8 +245,9 @@ flex-wrap: wrap;
   position: absolute;
   left: 0;
   bottom: 0;
-  font-size: 2.1rem;
+  font-size: 1.5rem;
   color: #663399;
+  font-family: sans-serif;
 }
 
 .footer-images:hover {
